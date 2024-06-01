@@ -79,9 +79,9 @@ contract ChatDApp{
                 if(userList[pubkey1].friendList[i].pubkey == pubkey2){
                     return true;
                 }
-                return false;
             }
         }
+        return false;
     }
 
     function _addFriend(address mine, address friend_key, string memory name) internal {
