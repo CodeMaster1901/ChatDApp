@@ -1,6 +1,6 @@
 import {ethers} from "ethers";
 import Web3Modal from "web3modal";
-import {ChatDAppAddress, ChatDAppABI} from "../Context/Constants";
+import {ChatDAppAddress, ChatDAppABI} from "../Context/constants";
 
 export const CheckIfWalletIsConnected = async () => {
     try{
